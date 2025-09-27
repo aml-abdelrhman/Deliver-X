@@ -1,0 +1,31 @@
+.btn-primary-custom {
+  background-color: #ffffff;
+  color: #1b1718;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #faf5f6;
+}
+
+.btn-primary-custom:hover {
+  background-color: #e63946;
+  color: #ffffff;
+}
+
+.btn-secondary-custom {
+  background-color: #e64708;
+  color: #ffffff;
+  border: 2px solid #e63946;
+  padding: 0.9rem 1.8rem;
+  border-radius: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-secondary-custom:hover {
+  background-color: #f83015;
+  color: #ffffff;
+}

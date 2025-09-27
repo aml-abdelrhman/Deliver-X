@@ -1,0 +1,53 @@
+.pre-footer {
+  background-color: #f8f9fa;
+  padding: 4rem 40px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 2px solid #ddd;
+  gap: 1rem;
+}
+
+.pre-footer .navbar-brand {
+  display: flex;
+  text-decoration: none;
+  color: #09090a;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.pre-footer .download-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .pre-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .pre-footer .download-buttons {
+    flex-direction: column;
+    width: 100% ;
+    align-items: center;
+  }
+  .pre-footer .download-buttons .btn-secondary-custom {
+    width: 100%;  
+    max-width: 100%;
+  }
+}
+
+.last-footer hr {
+  margin-bottom: 1rem;
+  border-color: #ccc;
+}
+
+.last-footer .brix-link,
+.last-footer .webflow-link {
+  color: #e63946;
+  text-decoration: none;
+}
