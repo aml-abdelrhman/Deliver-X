@@ -106,7 +106,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// صورة about section من غير ما نعدل الكلاس
 
 // about section
 gsap.from(".about-section img", {
